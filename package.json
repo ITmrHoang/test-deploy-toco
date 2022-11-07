@@ -2,7 +2,8 @@
     "name": "toco",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://itmrhoang.github.io/test-deploy-toco/",
+    "homepage": "https://itmrhoang.github.io/test-deploy-toco",
+    "proxy": "https://itmrhoang.github.io/test-deploy-toco",
     "dependencies": {
         "@emotion/react": "^11.10.5",
         "@emotion/styled": "^11.10.5",
