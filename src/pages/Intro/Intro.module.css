@@ -1,0 +1,59 @@
+.intro-container {
+    width: 100%;
+}
+
+.intro-banner {
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("https://tocotocotea.com/wp-content/themes/tocotocotea/assets/images/breadcrumb_bg5.png") no-repeat center;
+    background-size: cover;
+    display: flex;
+    font-family: "Baloo Da 2", cursive;
+    font-weight: 700;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #d3b673;
+    letter-spacing: 1.8px;
+}
+
+.content-container {
+    padding: 0 213px;
+    margin: 40px 0;
+}
+
+.item-content {
+    font-weight: normal;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+.img-container {
+    padding: 0 213px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-container img {
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+@media only screen and (width < 1445px) {
+    .content-container,
+    .img-container {
+        padding: 0 45px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .content-container,
+    .img-container {
+        padding: 0 35px;
+    }
+}

@@ -1,0 +1,282 @@
+.product-container {
+    width: 100%;
+}
+
+.product-wrapper {
+    margin: 18px;
+    display: flex;
+}
+
+.category {
+    width: 300px;
+    max-width: 25%;
+    margin: 0 16px 0 0;
+    color: #282828;
+    background: #ffffff;
+    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px,
+        rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px 16px;
+}
+
+.list-item {
+    padding: 0;
+    margin: 0;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #efefef;
+    padding: 10px;
+}
+
+.item li {
+    list-style: none;
+}
+
+.title-category {
+    padding: 5px 10px;
+    font-size: 20px;
+    font-family: "Baloo Da 2", cursive;
+    color: #d8b979;
+    border-bottom: 1px solid #efefef;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.item:last-child {
+    border: none;
+}
+
+.product {
+    flex: 1;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.product-card {
+    width: calc(25% - 20px);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+    border-bottom: 1px solid #f8f8f8;
+    box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+    cursor: pointer;
+}
+
+.product-card img {
+    width: 100%;
+}
+
+.bot-card {
+    padding: 10px 10px 0 10px;
+}
+
+.title {
+    font-family: "Barlow", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.new-price {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+    color: #8a733f;
+}
+
+.old-price {
+    color: #bebebe !important;
+    transform: scale(0.9, 0.9);
+    text-decoration: line-through;
+}
+
+.btn-buy {
+    display: block !important;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: #799dd9;
+    padding: 0 10px 10px 0;
+    float: right;
+}
+
+.btn-more {
+    display: none;
+}
+
+.bill-container {
+    width: 300px;
+    max-width: 25%;
+    margin: 0 0 0 16px;
+    color: #282828;
+    background: #ffffff;
+    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px,
+        rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    border-radius: 4px;
+    padding-bottom: 12px;
+}
+
+.bill-infor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.bill-action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bill-action span {
+    margin: 5px;
+}
+
+.bill-container-active {
+    display: none;
+}
+
+.bill-total-active {
+    display: none;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+.bill-total-active img {
+    height: 35px;
+    margin-right: 6px;
+}
+
+.btn-bill-active {
+    margin: 0 20px 16px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.bill-total-active span {
+    margin-right: 6px;
+}
+
+.bill-total-active span:nth-child(3),
+.bill-total-active span:last-child {
+    color: #8a733f;
+}
+
+.bill-top {
+    padding: 15px;
+    font-size: 20px;
+    font-family: "Baloo Da 2", cursive;
+    color: #d8b979;
+    border-bottom: 1px solid #efefef;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clear-all {
+    color: #282828;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    text-transform: none;
+}
+
+.bill-content {
+    padding: 0 20px;
+}
+
+.bill-total {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    margin: 20px 0;
+}
+
+.bill-price {
+    color: #8a733f;
+    font-weight: 300;
+}
+
+.bill-total img {
+    height: 35px;
+    margin-right: 6px;
+}
+
+.bill-total span {
+    margin-right: 6px;
+}
+
+.bill-total span:nth-child(3),
+.bill-total span:last-child {
+    color: #8a733f;
+}
+
+@media only screen and (max-width: 767px) {
+    .product-card {
+        width: calc(50% - 20px);
+    }
+    .product {
+        box-shadow: none;
+    }
+    .card-container {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .product-card {
+        width: calc(50% - 20px);
+    }
+    .product {
+        box-shadow: none;
+    }
+    .card-container {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .bill-container {
+        display: none;
+    }
+    .bill-container-active {
+        background-color: #fff;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100vw;
+        margin: 0;
+        max-width: 100vw;
+        display: flex !important;
+        justify-content: space-between;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    }
+}

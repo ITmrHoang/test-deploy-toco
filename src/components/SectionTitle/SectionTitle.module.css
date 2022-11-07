@@ -1,0 +1,17 @@
+.section-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content {
+    text-align: center;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400 !important;
+    color: #333333;
+    font-weight: 300;
+    font-size: 14px;
+    margin: 16px 0;
+}

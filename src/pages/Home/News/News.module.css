@@ -1,0 +1,154 @@
+.container {
+    width: 100%;
+}
+
+.container-news {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 213px;
+}
+
+.news-left {
+    width: 50%;
+    margin-right: 8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top-left {
+    margin-bottom: 35px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.top-left:hover {
+    box-shadow: 3.5px 6px 18px 0 rgb(0 0 0 / 20%);
+}
+
+.top-left img {
+    width: 100%;
+    display: block;
+}
+
+.title-left-news {
+    background-color: #f5f5f5;
+    padding: 17px;
+    height: 100%;
+    text-transform: uppercase;
+}
+
+.bot-left {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.news-card:hover {
+    box-shadow: 3.5px 6px 18px 0 rgb(0 0 0 / 20%);
+}
+
+.news-card {
+    width: calc(50% - 8px);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.news-card img {
+    display: block;
+}
+
+.bot-left img {
+    width: 100%;
+    display: block;
+}
+
+.news-right {
+    width: 50%;
+    margin-left: 8px;
+}
+
+.card-news-video {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.card-news-video:hover {
+    box-shadow: 3.5px 6px 18px 0 rgb(0 0 0 / 20%);
+}
+
+.video-pre {
+    min-width: 160px;
+    max-width: 160px;
+    flex: 1;
+    transition: all 0.2s;
+}
+
+.title-news-video {
+    flex: 2;
+    color: #282828;
+    font-size: 16px;
+    font-weight: 700;
+    word-break: keep-all;
+    padding-left: 16px;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.top-video {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.top-video img {
+    width: 100%;
+    border-radius: 10px;
+    padding-bottom: -10px;
+}
+
+.title-video {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media only screen and (width < 1327px) {
+    .container-news {
+        margin: 0 45px;
+    }
+}
+
+@media only screen and (width < 1200px) {
+    .container-news {
+        margin: 0 35px;
+    }
+}
+
+@media only screen and (max-width: 901px) {
+    .container-news {
+        display: block;
+    }
+
+    .news-left {
+        width: 100%;
+    }
+
+    .news-right {
+        width: 100%;
+    }
+}

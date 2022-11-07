@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500;700;800&display=swap");
+
+:root {
+    --primary-bg: #282828;
+    --menu-text: #fff;
+    --primary-color: #d3b673;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Barlow", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    cursor: default;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.title-toco {
+    text-align: center;
+    color: #d3b673;
+    font-size: 22px;
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+
+.title-logan {
+    font-size: 38px;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+    font-family: "Baloo Da 2", cursive !important;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    padding: 0 40px;
+    margin: 0;
+}
+
+.css-15v22id-MuiAccordionDetails-root {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.css-ahj2mt-MuiTypography-root {
+    width: 32%;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.css-o4b71y-MuiAccordionSummary-content {
+    padding: 4px 0;
+}
+
+.css-3chzkh {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.css-110zzx9 {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+        rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.css-13xfq8m-MuiTabPanel-root {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 !important;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected,
+.css-1aquho2-MuiTabs-indicator {
+    color: #d3b673 !important;
+    font-weight: 700;
+    text-align: center;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    min-width: 231px !important;
+    text-align: center;
+    font-weight: 700 !important;
+    text-transform: capitalize !important;
+}
+
+.css-1aquho2-MuiTabs-indicator {
+    background-color: #d3b673 !important;
+}
+
+.css-heg063-MuiTabs-flexContainer {
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 1200px) {
+    .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+        min-width: max-content !important;
+        text-align: center;
+        font-weight: 700 !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+        display: none !important;
+    }
+    .css-i4bv87-MuiSvgIcon-root {
+        display: block !important;
+        width: 100% !important;
+        margin: auto 0;
+    }
+}

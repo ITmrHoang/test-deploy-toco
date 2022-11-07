@@ -1,0 +1,55 @@
+.container {
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.about-us {
+    margin: 0 213px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.about-us img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.position-about-us {
+    position: absolute;
+    top: calc(50% - (250.6px / 2));
+    right: 0;
+    margin-right: 250px;
+    width: 30%;
+}
+
+@media only screen and (width < 1327px) {
+    .about-us {
+        margin: 0 45px;
+        overflow: hidden;
+        position: relative;
+    }
+    .position-about-us {
+        position: absolute;
+        top: calc(50% - (250.6px / 2));
+        right: 0;
+        margin-right: 80px;
+        width: 35%;
+    }
+}
+
+@media only screen and (width < 1200px) {
+    .about-us {
+        margin: 0 35px;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 993px) {
+    .position-about-us {
+        position: relative !important;
+        width: 85%;
+        margin: 0 auto;
+        padding: 32px 0;
+    }
+}

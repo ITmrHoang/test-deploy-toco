@@ -1,0 +1,64 @@
+.container-slider {
+    position: relative;
+    width: 100%;
+}
+
+.item-slider {
+    width: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    margin-bottom: 3px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-mouse {
+    margin-top: 300px;
+    color: #fff;
+    animation: scrollMouseDown 1s ease-in;
+    animation-iteration-count: infinite;
+}
+
+@keyframes scrollMouseDown {
+    0% {
+        transform: translateY(-6px);
+    }
+    25% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(6px);
+    }
+    75% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-6px);
+    }
+}
+
+.title-mouse {
+    margin-top: 10px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+@media only screen and (width < 600px) {
+    .icon-mouse {
+        margin-top: 100px;
+    }
+    .title-mouse {
+        margin-bottom: 10px;
+    }
+}
